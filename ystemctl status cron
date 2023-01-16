@@ -1,0 +1,11 @@
+[0;1;32m●[0m rsyslog.service - System Logging Service
+     Loaded: loaded (/lib/systemd/system/rsyslog.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Sun 2022-11-27 20:42:52 UTC; 20min ago
+TriggeredBy: [0;1;32m●[0m syslog.socket
+       Docs: man:rsyslogd(8)
+             https://www.rsyslog.com/doc/
+   Main PID: 374522 (rsyslogd)
+      Tasks: 4 (limit: 2338)
+     Memory: 2.3M
+     CGroup: /system.slice/rsyslog.service
+             └─374522 /usr/sbin/rsyslogd -n -iNONE
