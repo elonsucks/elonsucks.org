@@ -1618,18 +1618,6 @@
     "@types/yargs" "^17.0.8"
     chalk "^4.0.0"
 
-"@jest/types@^29.3.1":
-  version "29.3.1"
-  resolved "https://registry.yarnpkg.com/@jest/types/-/types-29.3.1.tgz#7c5a80777cb13e703aeec6788d044150341147e3"
-  integrity sha512-d0S0jmmTpjnhCmNpApgX3jrUZgZ22ivKJRvL2lli5hpCRoNnp1f85r2/wpKfXuYu8E7Jjh1hGfhPyup1NM5AmA==
-  dependencies:
-    "@jest/schemas" "^29.0.0"
-    "@types/istanbul-lib-coverage" "^2.0.0"
-    "@types/istanbul-reports" "^3.0.0"
-    "@types/node" "*"
-    "@types/yargs" "^17.0.8"
-    chalk "^4.0.0"
-
 "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.2.tgz#c1aedc61e853f2bb9f5dfe6d4442d3b565b253b9"
@@ -1726,10 +1714,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.11.tgz#aeb16f50649a91af79dbe36574b66d0f9e4d9f71"
   integrity sha512-3NsZsJIA/22P3QUyrEDNA2D133H4j224twJrdipXN38dpnIOzAbUDtOwkcJ5pXmn75w7LSQDjA4tO9dm1XlqlA==
 
-"@rails/ujs@^6.1.7":
-  version "6.1.7"
-  resolved "https://registry.yarnpkg.com/@rails/ujs/-/ujs-6.1.7.tgz#b09dc5b2105dd267e8374c47e4490240451dc7f6"
-  integrity sha512-0e7WQ4LE/+LEfW2zfAw9ppsB6A8RmxbdAUPAF++UT80epY+7emuQDkKXmaK0a9lp6An50RvzezI0cIQjp1A58w==
+"@rails/ujs@^7.0.4":
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/@rails/ujs/-/ujs-7.0.4.tgz#7fe5387d2d82b0547fdfc6667b424ec119c86b1e"
+  integrity sha512-UY9yQxBvtqXzXScslgPwZoQd16T0+z3P6BQS4lZDJFg5xVuMIgHkHQI6dhyWEt5l/qwbGaYX+YiZu6J+oxWPOw==
 
 "@redis/bloom@1.1.0":
   version "1.1.0"
@@ -7119,18 +7107,6 @@ jest-snapshot@^29.2.2:
     semver "^7.3.5"
 
 jest-util@^29.2.1, jest-util@^29.3.1:
-  version "29.3.1"
-  resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-29.3.1.tgz#1dda51e378bbcb7e3bc9d8ab651445591ed373e1"
-  integrity sha512-7YOVZaiX7RJLv76ZfHt4nbNEzzTRiMW/IiOG7ZOKmTXmoGBxUDefgMAxQubu6WPVqP5zSzAdZG0FfLcC7HOIFQ==
-  dependencies:
-    "@jest/types" "^29.3.1"
-    "@types/node" "*"
-    chalk "^4.0.0"
-    ci-info "^3.2.0"
-    graceful-fs "^4.2.9"
-    picomatch "^2.2.3"
-
-jest-util@^29.3.1:
   version "29.3.1"
   resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-29.3.1.tgz#1dda51e378bbcb7e3bc9d8ab651445591ed373e1"
   integrity sha512-7YOVZaiX7RJLv76ZfHt4nbNEzzTRiMW/IiOG7ZOKmTXmoGBxUDefgMAxQubu6WPVqP5zSzAdZG0FfLcC7HOIFQ==
