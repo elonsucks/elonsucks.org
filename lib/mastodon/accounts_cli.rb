@@ -204,7 +204,7 @@ module Mastodon
     option :dry_run, type: :boolean
     desc 'delete [USERNAME]', 'Delete a user'
     long_desc <<-LONG_DESC
-      Remove a user account with a given USERNAME.      
+      Remove a user account with a given USERNAME.
 
       With the --email option, the user is selected based on email
       rather than username.
@@ -552,8 +552,8 @@ module Mastodon
         exit(1)
       end
     end
-    
-        option :concurrency, type: :numeric, default: 5, aliases: [:c]
+
+    option :concurrency, type: :numeric, default: 5, aliases: [:c]
     option :dry_run, type: :boolean
     desc 'prune', 'Prune remote accounts that never interacted with local users'
     long_desc <<-LONG_DESC
@@ -589,7 +589,7 @@ module Mastodon
 
       say("OK, pruned #{deleted} accounts#{dry_run}", :green)
     end
-    
+
     option :force, type: :boolean
     option :replay, type: :boolean
     option :target
@@ -598,9 +598,9 @@ module Mastodon
       With --replay, replay the last migration of the specified account, in
       case some remote server may not have properly processed the associated
       `Move` activity.
-      
+
       With --target, specify another account to migrate to.
-      
+
       With --force, perform the migration even if the selected account
       redirects to a different account that the one specified.
     LONG_DESC
