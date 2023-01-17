@@ -425,7 +425,7 @@ GEM
       net-protocol
     net-ssh (7.0.1)
     nio4r (2.5.8)
-    nokogiri (1.13.9)
+    nokogiri (1.14.0)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     nsa (0.2.8)
@@ -808,7 +808,7 @@ DEPENDENCIES
   microformats (~> 4.4)
   mime-types (~> 3.4.1)
   net-ldap (~> 0.17)
-  nokogiri (~> 1.13)
+  nokogiri (~> 1.14)
   nsa (~> 0.2)
   oj (~> 3.13)
   omniauth (~> 1.9)
