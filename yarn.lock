@@ -5826,11 +5826,6 @@ intersection-observer@^0.12.0, intersection-observer@^0.12.2:
   resolved "https://registry.yarnpkg.com/intersection-observer/-/intersection-observer-0.12.2.tgz#4a45349cc0cd91916682b1f44c28d7ec737dc375"
   integrity sha512-7m1vEcPCxXYI8HqnL8CKI6siDyD+eIWSwgB3DZA+ZTogxk9I4CDnj4wilt9x/+/QbHI4YG5YZNmC6458/e9Ktg==
 
-intl-messageformat-parser@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-1.4.0.tgz#b43d45a97468cadbe44331d74bb1e8dea44fc075"
-  integrity sha1-tD1FqXRoytvkQzHXS7Ho3qRPwHU=
-
 intl-messageformat-parser@6.1.2:
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-6.1.2.tgz#28c65f3689f538e66c7cf628881548d6a82ff3c2"
@@ -5839,7 +5834,7 @@ intl-messageformat-parser@6.1.2:
     "@formatjs/ecma402-abstract" "1.5.0"
     tslib "^2.0.1"
 
-intl-messageformat@10.2.5:
+intl-messageformat@10.2.5, intl-messageformat@^10.2.5:
   version "10.2.5"
   resolved "https://registry.yarnpkg.com/intl-messageformat/-/intl-messageformat-10.2.5.tgz#a51e6e2700d82b5b7ccd7a9f3bd45d967d95afc0"
   integrity sha512-AievYMN6WLLHwBeCTv4aRKG+w3ZNyZtkObwgsKk3Q7GNTq8zDRvDbJSBQkb2OPeVCcAKcIXvak9FF/bRNavoww==
@@ -5848,13 +5843,6 @@ intl-messageformat@10.2.5:
     "@formatjs/fast-memoize" "1.2.7"
     "@formatjs/icu-messageformat-parser" "2.1.14"
     tslib "^2.4.0"
-
-intl-messageformat@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/intl-messageformat/-/intl-messageformat-2.2.0.tgz#345bcd46de630b7683330c2e52177ff5eab484fc"
-  integrity sha1-NFvNRt5jC3aDMwwuUhd/9eq0hPw=
-  dependencies:
-    intl-messageformat-parser "1.4.0"
 
 intl-relativeformat@^6.4.3:
   version "6.4.3"
