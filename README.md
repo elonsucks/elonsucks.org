@@ -1,5 +1,5 @@
 ![star](https://img.shields.io/github/stars/elon-sucks/elonsucks.org)
-![license](https://img.shields.io/badge/License-APGL-green.svg)
+[![license](https://img.shields.io/badge/License-APGL-green.svg)](LICENSE)
 ![languages](https://img.shields.io/github/languages/count/elon-sucks/elonsucks.org)
 ![codacy code quality](https://img.shields.io/codacy/grade/f9d695c423824a058c804a356dfa3493)
 ![last commit](https://img.shields.io/github/last-commit/elon-sucks/elonsucks.org)
