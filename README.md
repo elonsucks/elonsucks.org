@@ -9,4 +9,6 @@
 
 ---
 
-An English-speaking Mastodon instance for everyone, especially those who are anti-capitalist, pro-democracy and strive to bridge inequality. 
+An English-speaking Mastodon instance for everyone, especially those who are anti-capitalist, pro-democracy and strive to bridge inequality.
+
+###### [Back to top ↑](https://github.com/elon-sucks/elonsucks.org#)
