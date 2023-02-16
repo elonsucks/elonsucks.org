@@ -6,7 +6,7 @@ You should *not* report such issues on GitHub or in other public spaces to avoid
 
 ## Scope
 
-A "vulnerability in Mastodon" is a vulnerability in the code distributed through our main source code repository on GitHub. Vulnerabilities specific to ElonSucks.org (e.g. misconfiguration) should be reported at https://github.com/elon-sucks/elonsucks.org/issues
+A "vulnerability in Mastodon" is a vulnerability in the code distributed through our main source code repository on GitHub. Vulnerabilities specific to ElonSucks.org (e.g. misconfiguration) should be reported at https://github.com/elon-sucks/elonsucks.org/security/advisories
 
 ## Supported Versions
 
