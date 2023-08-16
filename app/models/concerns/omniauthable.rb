@@ -62,7 +62,7 @@ module Omniauthable
       rescue Mastodon::UnexpectedResponseError
         user.account.avatar_remote_url = nil
       end
-      
+
       user.skip_confirmation! if email_is_verified
       user.save!
       user
@@ -97,8 +97,7 @@ module Omniauthable
     def ensure_valid_username(starting_username)
       starting_username = starting_username.split('@')[0]
       temp_username = starting_username.gsub(/[^a-z0-9_]+/i, '')
-      validated_username = temp_username.truncate(30, omission: '')
-      validated_username
+      temp_username.truncate(30, omission: '')
     end
   end
 end

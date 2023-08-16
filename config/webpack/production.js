@@ -21,11 +21,9 @@ module.exports = merge(sharedConfig, {
     minimize: true,
     minimizer: [
       new TerserPlugin({
-        terserOptions: {
-          cache: true,
-          parallel: true,
-          sourceMap: true,
-        },
+        cache: true,
+        parallel: true,
+        sourceMap: true,
       }),
     ],
   },
@@ -33,7 +31,13 @@ module.exports = merge(sharedConfig, {
   plugins: [
     new CompressionPlugin({
       filename: '[path][base].gz[query]',
-      compressionOptions: { cache: true },
+      cache: true,
+      test: /\.(js|css|html|json|ico|svg|eot|otf|ttf|map)$/,
+    }),
+    new CompressionPlugin({
+      filename: '[path][base].br[query]',
+      algorithm: 'brotliCompress',
+      cache: true,
       test: /\.(js|css|html|json|ico|svg|eot|otf|ttf|map)$/,
     }),
     new BundleAnalyzerPlugin({ // generates report.html
