@@ -341,7 +341,7 @@ GEM
       multi_json (~> 1.15)
       rack (>= 2.2, < 4)
       rdf (~> 3.2, >= 3.2.10)
-    json-ld-preloaded (3.2.2)
+    json-ld-preloaded (3.2.0)
       json-ld (~> 3.2)
       rdf (~> 3.2)
     jsonapi-renderer (0.2.2)
@@ -483,7 +483,7 @@ GEM
       activesupport (>= 3.0.0)
     raabro (1.4.0)
     racc (1.7.1)
-    rack (2.2.6.4)
+    rack (2.2.4)
     rack-attack (6.6.1)
       rack (>= 1.0, < 3)
     rack-cors (1.1.1)
@@ -780,8 +780,8 @@ DEPENDENCIES
   httplog (~> 1.6.0)
   i18n-tasks (~> 1.0)
   idn-ruby
-  json-ld (>= 3.2.4)
-  json-ld-preloaded (~> 3.2, >= 3.2.0)
+  json-ld
+  json-ld-preloaded (~> 3.2)
   kaminari (~> 1.2)
   kt-paperclip (~> 7.1)
   letter_opener (~> 1.8)
@@ -856,9 +856,3 @@ DEPENDENCIES
   webpacker (~> 5.4)
   webpush!
   xorcist (~> 1.1)
-
-RUBY VERSION
-   ruby 2.7.6p219
-
-BUNDLED WITH
-   2.1.4
