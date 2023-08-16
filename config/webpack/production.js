@@ -33,7 +33,7 @@ module.exports = merge(sharedConfig, {
   plugins: [
     new CompressionPlugin({
       filename: '[path][base].gz[query]',
-      cache: true,
+      compressionOptions: { cache: true },
       test: /\.(js|css|html|json|ico|svg|eot|otf|ttf|map)$/,
     }),
     new BundleAnalyzerPlugin({ // generates report.html
