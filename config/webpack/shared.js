@@ -59,7 +59,6 @@ module.exports = {
         },
       },
     },
-    occurrenceOrder: true,
   },
 
   module: {
