@@ -56,7 +56,7 @@ module.exports = {
 
   rules: {
     'brace-style': 'warn',
-    'comma-dangle': ['error', 'always-multiline'],
+    'comma-dangle': 'off',
     'comma-spacing': [
       'warn',
       {
